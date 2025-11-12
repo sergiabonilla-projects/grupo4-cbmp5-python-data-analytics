@@ -68,7 +68,7 @@ Se generaron **tres variables derivadas** para facilitar el análisis:
 📉 **Pregunta:** ¿Qué empresa domina cada categoría de precios?
 
 ![Barras categoría precio](assets/bar_price_category.png)  
-> Lyft concentra más viajes en **“Bajo”**, mientras que Uber lidera en **“Medio”**.
+> Uber concentra más viajes en **“Bajo”**, mientras que Lyft lidera en **“Medio”**.
 
 ## 🔬 5. Diagnóstico General
 
