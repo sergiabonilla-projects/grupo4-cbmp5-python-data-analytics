@@ -18,7 +18,7 @@ El propósito es descubrir patrones, relaciones entre variables e insights que p
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
-**Dataset:** 693,071 registros | **Features:** 21 columnas | **Status:** ✅ Análisis Completado
+**Dataset:** 693,071 registros | **Columnas:** 10 columnas | **Estado:** ✅ Análisis Completado
 
 </div>
 Se trabajó con dos archivos:
@@ -70,15 +70,35 @@ Se generaron **tres variables derivadas** para facilitar el análisis:
 ![Barras categoría precio](assets/bar_price_category.png)  
 > Lyft concentra más viajes en **“Bajo”**, mientras que Uber lidera en **“Medio”**.
 
-## 🔍 5. Diagnóstico general
+## 🔬 5. Diagnóstico General
 
-| Observación | Detalle |
-|--------------|----------|
-| Estructura de datos | Coherente y combinada correctamente |
-| Faltantes | Variables climáticas con muchos nulos |
-| Outliers | En precios y distancias |
-| Unión datasets | Realizada por índice (para simplificar) |
-| Tamaño final | (693,071 filas × 21 columnas) |
+<table>
+<tr>
+<td width="50%">
+
+### 📈 Calidad de Datos
+
+- ✅ **Estructura coherente** y bien organizada
+- ⚠️ Variables climáticas con valores nulos
+- 🎯 Outliers detectados en precios/distancias
+- 🔗 Datasets unidos por índice
+
+</td>
+<td width="50%">
+
+### 💡 Insights Clave
+
+```
+🔹 Diferencias claras entre plataformas
+🔹 Patrones horarios identificados
+🔹 Influencia climática observable
+🔹 Variabilidad en distancias
+```
+
+</td>
+</tr>
+</table>
+
 ## 🧠 6. Propuestas de análisis futuras
 
 | Nº | Tema de análisis | Pregunta de investigación |
