@@ -99,15 +99,48 @@ Se generaron **tres variables derivadas** para facilitar el análisis:
 </tr>
 </table>
 
-## 🧠 6. Propuestas de análisis futuras
+## 📊 6. Pipeline de Análisis
+
+```mermaid
+graph LR
+    A[📥 Raw Data] --> B[🧹 Cleaning]
+    B --> C[🔗 Merge Datasets]
+    C --> D[🔍 EDA]
+    D --> E[📈 Visualización]
+    E --> F[💡 Insights]
+    F --> G[🎯 Recomendaciones]
+```
+
+## 🧠 7. Propuestas de análisis futuras
 
 | Nº | Tema de análisis | Pregunta de investigación |
 |----|------------------|---------------------------|
 | 1️⃣ | Clima vs Precio | ¿Suben los precios cuando llueve o hace frío? |
 | 2️⃣ | Demanda vs Hora | ¿Las horas pico incrementan significativamente el precio? |
 
+## 🎯 8. Principales hallazgos
 
-## ✅ 7. Conclusión general
+<table>
+<tr>
+<td width="33%" align="center">
+<img src="https://img.icons8.com/fluency/96/000000/price-tag.png" width="64"/>
+<h3>Precios</h3>
+<p>Variabilidad significativa entre plataformas y horarios</p>
+</td>
+<td width="33%" align="center">
+<img src="https://img.icons8.com/fluency/96/000000/rain.png" width="64"/>
+<h3>Clima</h3>
+<p>Correlación observable con tarifas dinámicas</p>
+</td>
+<td width="33%" align="center">
+<img src="https://img.icons8.com/fluency/96/000000/clock.png" width="64"/>
+<h3>Horarios</h3>
+<p>Patrones de demanda claramente diferenciados</p>
+</td>
+</tr>
+</table>
+
+## ✅ 9. Conclusión general
 El análisis exploratorio permitió identificar la **estructura y calidad de los datos** y reconocer patrones entre **Uber y Lyft**.  
 Se observan **diferencias claras** en precios y distancias, posiblemente influenciadas por el **clima y el horario**.
 
