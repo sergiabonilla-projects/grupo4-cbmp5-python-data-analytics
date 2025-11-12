@@ -11,6 +11,16 @@ Analizar el comportamiento de precios, distancias y demanda en servicios de tran
 El propósito es descubrir patrones, relaciones entre variables e insights que permitan comprender cómo el clima y el horario afectan el costo de los viajes.
 
 ## 🧩 1. Exploración inicial del dataset
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+
+**Dataset:** 693,071 registros | **Features:** 21 columnas | **Status:** ✅ Análisis Completado
+
+</div>
 Se trabajó con dos archivos:
 
 | Dataset | Filas | Columnas | Descripción |
