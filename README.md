@@ -4,7 +4,7 @@
 - **Bonilla Alejandro Sergia**  
 - **Franco Nieto Carlos**  
 - **Reyes Peñafiel Fátima**  
-- **Rodas Cruz**
+- **Rodas Cruz Mia**
 ---
 - ## 🎯 Objetivo
 Analizar el comportamiento de precios, distancias y demanda en servicios de transporte (Uber y Lyft), considerando la influencia de las condiciones climáticas.  
@@ -46,18 +46,18 @@ Se generaron **tres variables derivadas** para facilitar el análisis:
 ### 🔹 1. Distribución del Precio
 📈 **Pregunta:** ¿Cómo se distribuyen los precios de los viajes?
 
-![Histograma de precios](img/hist_price.png)  
+![Histograma de precios](assets/hist_price.png)  
 > La mayoría de los viajes presentan **precios bajos**, con pocos valores extremos.
 ### 🔹 2. Distancia por Tipo de Cab
 📊 **Pregunta:** ¿Existen diferencias de distancia entre Uber y Lyft?
 
-![Boxplot distancia por cab](img/boxplot_distance.png)  
+![Boxplot distancia por cab](assets/boxplot_distance.png)  
 > **Uber** tiende a cubrir **mayores distancias promedio** que **Lyft**.
 
 ### 🔹 3. Categoría de Precio por Empresa
 📉 **Pregunta:** ¿Qué empresa domina cada categoría de precios?
 
-![Barras categoría precio](img/bar_price_category.png)  
+![Barras categoría precio](assets/bar_price_category.png)  
 > Lyft concentra más viajes en **“Bajo”**, mientras que Uber lidera en **“Medio”**.
 
 ## 🔍 5. Diagnóstico general
