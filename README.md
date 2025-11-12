@@ -1,1 +1,1 @@
-# grupo4-cbmp5-python-data-analytics
+![Portada animada](./assets/Grupo4GIF.gif)
