@@ -64,11 +64,11 @@ Se generaron **tres variables derivadas** para facilitar el análisis:
 ![Boxplot distancia por cab](assets/boxplot_distance.png)  
 > **Uber** tiende a cubrir **mayores distancias promedio** que **Lyft**.
 
-### 🔹 3. Categoría de Precio por Empresa
+### 🔹 3. Número de Viajes por Categoría de Precio y Tipo de Cab
 📉 **Pregunta:** ¿Qué empresa domina cada categoría de precios?
 
 ![Barras categoría precio](assets/bar_price_category.png)  
-> Uber concentra más viajes en **“Bajo”**, mientras que Lyft lidera en **“Medio”**.
+> Se observa que la mayoría de los viajes de ambos servicios se concentra en la categoría Media. Esto indica que la mayor demanda se da en tarifas intermedias, aunque Uber muestra un mayor volumen relativo de viajes tanto en categorías bajas como medias, mientras que Lyft concentra menos viajes económicos.
 
 ## 🔬 5. Diagnóstico General
 
