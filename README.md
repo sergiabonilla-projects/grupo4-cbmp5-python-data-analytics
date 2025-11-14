@@ -185,13 +185,5 @@ graph LR
 ## ✅ 9. Conclusión general
 El análisis muestra que el clima sí influye en los viajes compartidos, aunque de manera moderada. En días de lluvia, la cantidad total de viajes disminuye, pero el surge y la elección de tipo de servicio reflejan una mayor presión de demanda y preferencia por cabs más cómodos. Los precios por kilómetro no aumentan significativamente en lluvia, y las distancias promedio tienden a ser más cortas en condiciones extremas de viento. Además, el dataset está sesgado hacia días calurosos, lo que limita el análisis de temperaturas bajas. Por lo que, el clima afecta la demanda y ciertos patrones de viaje, pero su impacto sobre los precios por kilómetro es limitado.
 
->**Clima y demanda**
->La lluvia reduce los viajes, pero aumenta surge, precio y precio por km.
->
->**Temperatura**
->En temperaturas extremas los precios suben. En clima templado los viajes son más largos.
->
->**Viento**
->Vientos fuertes reducen la distancia promedio del viaje.
 
 
