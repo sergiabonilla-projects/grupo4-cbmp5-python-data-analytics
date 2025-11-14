@@ -70,6 +70,48 @@ Se generaron **tres variables derivadas** para facilitar el análisis:
 ![Barras categoría precio](assets/bar_price_category.png)  
 > Se observa que la mayoría de los viajes de ambos servicios se concentra en la categoría Media. Esto indica que la mayor demanda se da en tarifas intermedias, aunque Uber muestra un mayor volumen relativo de viajes tanto en categorías bajas como medias, mientras que Lyft concentra menos viajes económicos.
 
+### 🔹 4. Cantidad de viajes según presencia de lluvia
+📉 **Pregunta:** ¿Cómo se distribuye la cantidad de viajes según la presencia o ausencia de lluvia?
+
+![Barras cantidad_viajes](assets/Trips_Rain_Analysis.png)  
+> La mayoría de los viajes ocurren en días sin lluvia. Esto indica que la lluvia reduce la cantidad total de viajes, aunque todavía hay una proporción significativa de viajes en días lluviosos.
+
+### 🔹 5. Tipo de servicio según condición climática
+📉 **Pregunta:** ¿El clima influye en el tipo de servicio?
+
+![BarrasApiladas tipo_servicio](assets/service_weather.png)  
+>  El clima afecta la demanda, con menos viajes cuando llueve, y Uber sigue teniendo más volumen que Lyft en todas las condiciones climáticas.
+
+### 🔹 6. Precio promedio por rango de temperatura
+📉 **Pregunta:** ¿Existe una relación entre el rango de temperatura y el precio promedio de los viajes?
+
+![Barras precio_promedio](assets/price_by_temperature_range.png)  
+>  El dataset está concentrado en días calurosos (>30 °C), con pocos viajes entre 20–30 °C y ninguno en rangos fríos (<20 °C).
+
+### 🔹 7. Surge promedio por condición climática
+📉 **Pregunta:** ¿Cómo varía el factor de precio dinámico (Surge) promedio en función de la condición climática?
+
+![Barras surge_promedio](assets/average_surge_by_weather.png)  
+>  Cuando llueve, la presión de demanda aumenta un poco, lo que genera un leve incremento en los precios (surge). La diferencia no es enorme pero muestra que la lluvia sí afecta el costo de los viajes.
+
+### 🔹 8. Distancia promedio según velocidad del viento
+📉 **Pregunta:** ¿La velocidad del viento afecta la distancia promedio del viaje?
+
+![Barras distancia_promedio](assets/average_distance_by_wind_speed.png)  
+>  En días con vientos leves o moderados, la distancia promedio de los viajes se mantiene estable.
+
+### 🔹 9. Precio promedio por hora (con vs sin lluvia)
+📉 **Pregunta:** ¿Cómo evoluciona el precio promedio de los viajes a lo largo del día, y cómo se compara esta evolución cuando hay lluvia frente a cuando no la hay?
+
+![Lineas precio_promedio_hora](assets/average_price_hourly_rain.png)  
+>  Los precios promedio por hora son similares con o sin lluvia. Algunos aumentos se notan en horas con registros de lluvia, pero en muchas horas no hubo viajes lluviosos, por lo que el efecto de la lluvia es limitado.
+
+### 🔹 10. Precio por kilómetro según clima
+📉 **Pregunta:** ¿Cómo afecta la condición climática al costo real del viaje por unidad de distancia (precio por kilómetro)?
+
+![Barras precio_kilometro](assets/avg_price_per_km_by_weather.png)  
+>  Los precios promedio por hora son similares con o sin lluvia. Algunos aumentos se notan en horas con registros de lluvia, pero en muchas horas no hubo viajes lluviosos, por lo que el efecto de la lluvia es limitado.
+
 ## 🔬 5. Diagnóstico General
 
 <table>
@@ -141,7 +183,7 @@ graph LR
 </table>
 
 ## ✅ 9. Conclusión general
-El análisis combinado de **viajes** y **condiciones climática**s revela que el clima es un determinante clave en el **comportamiento** del mercado de ridesharing, afectando simultáneamente la **demanda, los precios, las distancias recorridas y la elección del tipo de servicio.**
+El análisis muestra que el clima sí influye en los viajes compartidos, aunque de manera moderada. En días de lluvia, la cantidad total de viajes disminuye, pero el surge y la elección de tipo de servicio reflejan una mayor presión de demanda y preferencia por cabs más cómodos. Los precios por kilómetro no aumentan significativamente en lluvia, y las distancias promedio tienden a ser más cortas en condiciones extremas de viento. Además, el dataset está sesgado hacia días calurosos, lo que limita el análisis de temperaturas bajas. Por lo que, el clima afecta la demanda y ciertos patrones de viaje, pero su impacto sobre los precios por kilómetro es limitado.
 
 >**Clima y demanda**
 >La lluvia reduce los viajes, pero aumenta surge, precio y precio por km.
