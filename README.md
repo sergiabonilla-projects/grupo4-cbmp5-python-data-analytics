@@ -144,15 +144,12 @@ graph LR
 El análisis combinado de **viajes** y **condiciones climática**s revela que el clima es un determinante clave en el **comportamiento** del mercado de ridesharing, afectando simultáneamente la **demanda, los precios, las distancias recorridas y la elección del tipo de servicio.**
 
 >**Clima y demanda**
->
 >La lluvia reduce los viajes, pero aumenta surge, precio y precio por km.
 >
 >**Temperatura**
->
 >En temperaturas extremas los precios suben. En clima templado los viajes son más largos.
 >
 >**Viento**
->
 >Vientos fuertes reducen la distancia promedio del viaje.
 
 
