@@ -141,8 +141,7 @@ graph LR
 </table>
 
 ## ✅ 9. Conclusión general
-El análisis exploratorio permitió identificar la **estructura y calidad de los datos** y reconocer patrones entre **Uber y Lyft**.  
-Se observan **diferencias claras** en precios y distancias, posiblemente influenciadas por el **clima y el horario**.
+El análisis combinado de **viajes** y **condiciones climática**s revela que el clima es un determinante clave en el **comportamiento** del mercado de ridesharing, afectando simultáneamente la **demanda, los precios, las distancias recorridas y la elección del tipo de servicio.**
 
 > Se recomienda manejar los valores faltantes y outliers antes de aplicar modelos predictivos o análisis más avanzados.
 
