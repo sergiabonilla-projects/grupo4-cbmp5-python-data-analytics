@@ -37,7 +37,7 @@ Se trabajó con dos archivos:
 |----------|------------|
 | Duplicados | 0 registros |
 | Valores nulos | 55,095 en `price` (≈ 7.95%) |
-| Outliers | Detectados en `price` y `distance` |
+| Outliers | Detectados en `price` |
 | Limpieza sugerida | Tratar nulos en clima y ajustar valores extremos |
 
 > 📌 El dataset tiene buena calidad general, pero requiere limpieza ligera para asegurar precisión.
